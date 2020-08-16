@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o conteudo do nosso site*/
+body, html {
+    height: 100%;
+}
+
+
+.artigo {
+    width: 80%;
+    height: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px 20px;
+    
+}
+
+.artigo h1 {
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;/* 1em = 16px*/
+    font-style: italic;
+    font-weight: bold;
+    margin: 7px 0 10px 0;
+
+}
+
+.artigo p {
+    color: #1027aa;
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    
+}
