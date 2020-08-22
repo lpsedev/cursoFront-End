@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário Profissional</title>
+        <link rel="stylesheet" href="/css/formularioProfissional.css">
+    </head>
+    <body>
+       <form action="">
+           <fieldset>
+               <legend>Meu formulário</legend>
+                <div><input type="text" placeholder="Digite seu nome"></div>    
+               <div><input type="text" placeholder="Digite seu email"></div>
+               <div>
+                   <select>
+                       <option disabled selected>Qual a sua idade?</option>
+                       <option value="18">menor que 18</option>
+                       <option value="30">menor que 30</option>
+                       <option value="70">menor que 70</option>
+                   </select>
+               </div>
+                <h2>Qual a sua cidade?</h2>
+                <div class="cidade">
+                    <div>
+                        <input type="radio" name="city" value="Florianópolis"><span>Florianópolis</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="city" value="São Paulo"><span>São Paulo</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="city" value="Rio de Janeiro"><span>Rio de Janeiro</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="city" value="Bahia"><span>Bahia</span>
+                    </div>
+                </div>
+
+                <h2 class="title-profissao">Qual a sua profissão?</h2>
+                <div class="profissao">
+                    <div>
+                        <input type="radio" name="profissao[]" value="ducador Físico"><span>Educador Físico</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="profissao[]" value="Professor"><span>Professor</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="profissao[]" value="Desenvolvedor"><span>Desenvolvedor</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="profissao[]" value="Outros"><span>Outros</span>
+                    </div>
+
+                </div>
+
+                <h2 class="title-hobbie">Qual o seu hobbie?</h2>
+                <div class="hobbie">
+                    <div>
+                        <input type="checkbox" name="hobbie" value="Cinema"><span>Cinema</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="hobbie" value="Praia"><span>Praia</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="hobbie" value="Academia"><span>Academia</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="hobbie" value="Outros"><span>Outros</span>
+                    </div>
+                </div>
+
+                <div class="comentarios">
+                    <div>
+                        <textarea name="comentarios" id="" cols="56" rows="10" placeholder="Possui alguma observação?"></textarea>
+                    </div>
+                   
+                    <div>
+                        <input type="submit" name="acao" value="Enviar">
+                    </div>
+                </div>
+           </fieldset>
+       </form>
+    </body>
+</html>

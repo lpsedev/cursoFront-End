@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+/* table {
+    width: 900px;
+    border-collapse: collapse;juntar
+    margin: 0 auto;
+}
+
+table tr td {
+    height: 300px;
+    vertical-align: middle; meio 
+    border: 3px solid black;
+    background: greenyellow;
+} */
+
+.menu-fixed {
+    position: relative;/*fixed;/* o menu fixa onde foi determinado */
+    top: 0;
+    width: 400px;
+    height: 200px;
+    background: rgba(200, 200, 200, 0.2);
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    padding: 30px;
+    background: greenyellow;
+    
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+.box {
+    width: 40%;
+    height: 300px;
+    color: gray;
+}
+.box p {
+    color: initial; /* Siginifica que reseta para  cor padrão */
+
+    margin: initial;
+}
+
+
+
+
+
+
+
+
+
+/* .box2{
+    height: 500px;
+}
+Inherit = herda da class pai os estilos
+.box > .box2 span {
+    display: inline-block;
+    /* width: inherit;
+    height: inherit;
+    background: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        height: auto;
+    }
+} */

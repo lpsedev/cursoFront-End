@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    height: 100%;
+}
+ul{
+    list-style-position: inside;
+}
+/* De acordo com os elementos */
+ul li:nth-of-type(2){
+    color: red;
+}
+
+/* De acordo com os filhos */
+ul li:nth-child(3){
+    color: blue;
+}
+
+.box{
+    width: 100%;
+}
+
+.box div{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background: green;
+    border: 1px solid black;
+}
+
+
+/* 
+.box p:last-of-type{
+    color: red;
+}
+
+.box div:last-of-type p{
+    color: blueviolet;
+}
+
+.box div:not(.one){
+    background: gold;
+} */
+.one::after{
+    content: 'Luiz';
+}

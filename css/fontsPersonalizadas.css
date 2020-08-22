@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face{
+    font-family: "Minha Fonte";
+    src: url('../fonts/Acme-Regular.ttf');
+}
+
+html, body {
+    height: 100%;
+    font-family: "Minha Fonte";
+}
+
+form  *{
+    font-family: "Minha FOnte";
+}
+
+
+/* .box p{
+    
+    font-family: "Minha Fonte";
+}
+ Qnd utilizamos o nível de especificação !important ele prevacele sobre os demais.
+.text{
+    font-family: 'Times New Roman', Times, serif !important;
+} */

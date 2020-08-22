@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+/* a[href="http://www.google.com.br"]{
+    background: yellow;
+} */
+
+/* PROCURE EM QUALQUER LINK A PALAVRA GOOGLE.
+a[href*="google"], a[href*="danki"]{
+    background: blue;
+} 
+
+ PROCURE ENTRE AS PALAVRAS DO ATTR A PALAVRA GOOGLE.
+ a[attr~="google"]{
+    background: red;
+} */
+
+
+
+/* QUANDO COMEÇA COM A PALAVRA DANKI
+a[class|="danki"]{
+    background: green;
+} */
+
+input[type=text] {
+    background: red;
+}
+
+input[type=submit]{
+    background: yellowgreen;
+    border-radius: 10px;
+}
